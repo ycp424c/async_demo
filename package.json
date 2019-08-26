@@ -1,0 +1,24 @@
+{
+  "name": "async_demo",
+  "version": "1.0.0",
+  "description": "a demo test node async & child process mechanism",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycp424c/async_demo.git"
+  },
+  "keywords": [
+    "node",
+    "child_process",
+    "async"
+  ],
+  "author": "justynchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycp424c/async_demo/issues"
+  },
+  "homepage": "https://github.com/ycp424c/async_demo#readme"
+}
