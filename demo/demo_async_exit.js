@@ -32,12 +32,20 @@ function print(str) {
 	return ' '.repeat(n);
   }
 
-asyncFunctions.asyncFunction(5000,'index')
+asyncFunctions.asyncFunction(2000,'index')
 
 process.on('exit',(e)=>{
 	console.log('process exit')
+
 })
+
+let once = false
 
 process.on('beforeExit',(e)=>{
 	console.log('process before exit')
+	if(!once){
+		once = true
+		asyncFunctions.asyncFunction(2000,'before exit')
+
+	}
 })
